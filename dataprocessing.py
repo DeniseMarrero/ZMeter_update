@@ -4,12 +4,9 @@ from datetime import datetime
 from matplotlib import cm
 import matplotlib.colors as cmcolors
 
-#read each line from a file
-TEER_1 = list()
-
 plt.close('all')
 
-filename = 'TEER results/Caco_2_t2_Channel2_TEER'
+filename = 'TEER results/exp3/caco-irsi_edtaChannel2_TEER'
 
 fin = open(filename, 'r', encoding='latin')
 
